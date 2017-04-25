@@ -5,15 +5,13 @@
 using namespace std;
 
 int main(){
-    //Point p1, p2, p3;
+    Point p1, p2, p3;
     Poligono v1, v2, v3;
     Retangulo r1;
 
-    r1.Retangulo( 0, 0, 4, 3);
+    r1.Retangulo( 0, 0, 4, 3);                                  //obs: codigo incompleto
 
-    v1.setVertices()
-
-  /*p1.setX(4); p1.setY(3);
+    p1.setX(4); p1.setY(3);
 
     p1.imprime();
 
@@ -33,7 +31,7 @@ int main(){
 
     p3.translada(-3, 4);
 
-    p3.imprime();*/
+    p3.imprime();
 
     return 0;
 }
