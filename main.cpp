@@ -11,7 +11,7 @@ int main(){
 
     r1.Retangulo( 0, 0, 4, 3);                                  //obs: codigo incompleto
 
-    p1.setX(4); p1.setY(3);
+    p1.setX(4); p1.setY(3);                                     // testes da classe ponto
 
     p1.imprime();
 
