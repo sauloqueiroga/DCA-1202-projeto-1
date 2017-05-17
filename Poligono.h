@@ -4,10 +4,11 @@
 
 class Poligono{
     private:
-    Point vertices[100];                            //onde ser„o armazenados o pontos
+    Point vertices[100];                            //onde ser√£o armazenados o pontos
+    int nVertices;                                  //quantidade de vertices
 
 public:
-    Poligono(void);                           //construtor
+    Poligono(void);                                 //construtor
 
     ~Poligono();                                    //destrutor
 
