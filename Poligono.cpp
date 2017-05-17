@@ -39,13 +39,11 @@ int Poligono::setVertices(Point v1[])
             break;
         }
     }
-    return n;
+    nVertices = n;
 }
 
-int Poligono::getN()
-{
-    int nVertice = sizeof(vertices)/sizeof(Poligono);
-    return (nVertice);
+int Poligono::getN(){
+        return (nVertice);
 }
 
 float Poligono::area(Point v1[]){
